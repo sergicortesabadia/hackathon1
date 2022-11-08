@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "cc78bd38-3482-483e-a993-b6463296180b",
+		"name": "hackathon_challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23795458"
+	},
+	"item": [
+		{
+			"name": "show_by_size",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/show_by_size",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"show_by_size"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "show_by_year",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/show_by_year",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"show_by_year"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "show_numbers_industry",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/show_numbers?param=industry",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"show_numbers"
+					],
+					"query": [
+						{
+							"key": "param",
+							"value": "industry"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "show_numbers_size",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/show_numbers?param=size",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"show_numbers"
+					],
+					"query": [
+						{
+							"key": "param",
+							"value": "size"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "show_numbers_year",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/show_numbers?param=year",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"show_numbers"
+					],
+					"query": [
+						{
+							"key": "param",
+							"value": "year"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
